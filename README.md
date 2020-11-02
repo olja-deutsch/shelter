@@ -1,1 +1,1 @@
-# shelter
+**[Ссылка на готовый проект](https://olja-deutsch.github.io/shelter/pages/main/main.html)** 

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pets page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="../main/main.css" rel="stylesheet">
+    <link href="pets.css" rel="stylesheet">
+</head>
+<body>
+    <div class="top-wrapper top-wrapper_light top-wrapper_fixed">
+        <header class="header flex">
+            <h1 class="main-caption">Cozy House</h1>
+            <div class="logo">
+                <a href="../main/main.html">
+                    <span class="logo__title">Cozy House</span>
+                    <span class="logo__subtitle">Shelter for pets in Boston</span>
+                </a>
+            </div>
+            <nav class="top-menu">
+                <ul class="top-menu__list flex">
+                    <li class="top-menu__item"><a class="top-menu__link top-menu__link_dark" href="../main/main.html">About the shelter</a></li>
+                    <li class="top-menu__item"><a class="top-menu__link top-menu__link_dark active" href="pets.html">Our pets</a></li>
+                    <li class="top-menu__item"><a class="top-menu__link top-menu__link_dark disabled" href="">Help the shelter</a></li>
+                    <li class="top-menu__item"><a class="top-menu__link top-menu__link_dark disabled" href="">Contacts</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-button hamburger-button_dark"><span></span></button>
+        </header>
+    </div>
+
+    <main class="main">
+        <section class="section-catalog">
+            <div class="container">
+                <h3 class="text-center">
+                    <span>Our friends who</span>
+                    <span>are looking for a house</span>
+                </h3>
+                <div class="catalog flex">
+                    <div class="catalog__item">
+                        <div class="catalog__content" data-name="Katrine">
+                            <img class="catalog__img" src="../../assets/images/katrine.png" alt="Cat">
+                            <div class="catalog__title">Katrine</div>
+                            <a class="btn btn-border" href="">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__content" data-name="Jennifer">
+                            <img class="catalog__img" src="../../assets/images/jennifer.png" alt="Dog">
+                            <div class="catalog__title">Jennifer</div>
+                            <a class="btn btn-border" href="">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__content" data-name="Woody">
+                            <img class="catalog__img" src="../../assets/images/woody.png" alt="Dog">
+                            <div class="catalog__title">Woody</div>
+                            <a class="btn btn-border" href="">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__content" data-name="Sophia">
+                            <img class="catalog__img" src="../../assets/images/sophia.png" alt="Dog">
+                            <div class="catalog__title">Sophia</div>
+                            <a class="btn btn-border" href="">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__content" data-name="Timmy">
+                            <img class="catalog__img" src="../../assets/images/timmy.png" alt="Cat">
+                            <div class="catalog__title">Timmy</div>
+                            <a class="btn btn-border" href="">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__content" data-name="Charly">
+                            <img class="catalog__img" src="../../assets/images/charly.png" alt="Dog">
+                            <div class="catalog__title">Charly</div>
+                            <a class="btn btn-border" href="">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__content" data-name="Scarlett">
+                            <img class="catalog__img" src="../../assets/images/scarlett.png" alt="Dog">
+                            <div class="catalog__title">Scarlett</div>
+                            <a class="btn btn-border" href="">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__content" data-name="Freddie">
+                            <img class="catalog__img" src="../../assets/images/freddie.png" alt="Cat">
+                            <div class="catalog__title">Freddie</div>
+                            <a class="btn btn-border" href="">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <button class="pagination__first" disabled>&#60;&#60;</button>
+                    <button class="pagination__prev" disabled>&#60;</button>
+                    <button class="pagination__number">1</button>
+                    <button class="pagination__next">&#62;</button>
+                    <button class="pagination__last">&#62;&#62;</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-block flex">
+                <div class="footer-block__contacts flex">
+                    <div class="footer-block__part">
+                        <h3><span>For questions </span><span>and suggestions</span></h3>
+                        <a href="mailto:email@shelter.com" class="footer-block__email">email@shelter.com</a>
+                        <a href="tel:+136745677554" class="footer-block__tel">+13 674 567 75 54</a>
+                    </div>
+                    <div class="footer-block__part">
+                        <h3><span>We are waiting </span><span>for your visit</span></h3>
+                        <a class="footer-block__location" href="https://goo.gl/maps/VCYRHPy85Da9Ubxs6" target="_blank">
+                            1 Central Street, Boston (entrance from the store)
+                        </a>
+                        <a class="footer-block__location" href="https://goo.gl/maps/TSdpRrsjAvHkPsDU8" target="_blank">
+                            18 South Park, London 
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-block__img">
+                    <img src="../../assets/images/footer-puppy.png" alt="Puppy">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup"></div>
+
+    <div class="blackout"></div>
+
+    <script src="pets.js"></script>
+</body>
+</html>
